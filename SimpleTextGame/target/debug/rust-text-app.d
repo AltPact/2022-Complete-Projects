@@ -1,0 +1,1 @@
+C:\Users\ademp\OneDrive\Documents\2022\ Complete\ Projects\SimpleTextGame\target\debug\rust-text-app.exe: C:\Users\ademp\OneDrive\Documents\2022\ Complete\ Projects\SimpleTextGame\src\main.rs C:\Users\ademp\OneDrive\Documents\2022\ Complete\ Projects\SimpleTextGame\src\prompts.rs
