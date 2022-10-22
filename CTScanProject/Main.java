@@ -222,6 +222,7 @@ public class Main extends Application {
          * setPrefHeight/setPrefWitch - Sets the smallest the heights and width can be. (Default if there isn't enough room on the window)
          * setContentDisplay/setAligment/setTextAligment - Dictate that the box/textInsideBox will be center framed inside of the Window
          * **/
+        
         SplitPane splitPaneTop = new SplitPane(); splitPaneTop.setDividerPositions(0.5); splitPaneTop.setOrientation(Orientation.VERTICAL); splitPaneTop.setPrefHeight(270.0); splitPaneTop.setPrefWidth(300.0);
             Label TopSliceHeader = new Label(); TopSliceHeader.setAlignment(Pos.CENTER); TopSliceHeader.setContentDisplay(ContentDisplay.CENTER); TopSliceHeader.setTextAlignment(TextAlignment.CENTER); TopSliceHeader.setText("Top Down Slices");
             HBox hBoxTopSlice = new HBox(); hBoxTopSlice.getChildren().addAll(topView, topSlider, topSliderOpacity);
