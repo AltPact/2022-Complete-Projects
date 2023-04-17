@@ -29,7 +29,7 @@ new_coordinates = mainAlgorithmObj.reduce_dim()
 
 
 #Recognition Process
-if reco_type is "image":
+if reco_type == "image":
     correctCounter = 0
     wrongCounter = 0
     i = 0
