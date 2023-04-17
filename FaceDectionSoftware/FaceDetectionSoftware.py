@@ -18,7 +18,9 @@ cap = cv2.VideoCapture(0)
 while(True):
     # capture frame-by-frame
     ret, frame = cap.read()
+    # converts the images to greyscale
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    # Detects faces 
     faces = face_cascade.detectMultiScale(gray, scaleFactor=1.5, minNeighbors=5)
     for (x,y,w,h) in faces:
         # print(x,y,w,h)
